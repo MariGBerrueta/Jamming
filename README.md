@@ -27,7 +27,7 @@ npm start
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-For the application to work, *you will need a Spotify account*. If you are not log in when using Jamming, the application will open an authentification page requesting you to log in. 
+For the application to work, **you will need a Spotify account**. If you are not logged in when using Jamming, the application will ask you to. 
 
 ## Other Available Scripts
 
