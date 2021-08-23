@@ -4,25 +4,25 @@ Jamming allows users to create and save new playlists to their Spotify account.
 
 This application accomplishes the following:
 
-*Searches for Spotify content according to users' input. The user can search music by a song's name, an artist, or an album.
-*Displays a list of results. Each result includes a song's name, artist, album, and a play button.
-*Plays a 30-second preview of the song by clicking the play button. When playing the preview, a pause button will appear to pause the song on click.
-*Displays the new playlist with a title, songs added, and a "/Save to Spotify"/ button.
-*Adds and removes songs to the new playlist by clicking the plus or minus button at the right of the song information.
-*Modifies the playlist name by writing over the "/new playlist"/ title.
-*Saves the new playlist to the user Spotify's account by clicking the Save To Spotify button.
+* Searches for Spotify content according to users' input. The user can search music by a song's name, an artist, or an album.
+* Displays a list of results. Each result includes a song's name, artist, album, and a play button.
+* Plays a 30-second preview of the song by clicking the play button. When playing the preview, a pause button will appear to pause the song on click.
+* Displays the new playlist with a title, songs added, and a "/Save to Spotify"/ button.
+* Adds and removes songs to the new playlist by clicking the plus or minus button at the right of the song information.
+* Modifies the playlist name by writing over the "/new playlist"/ title.
+* Saves the new playlist to the user Spotify's account by clicking the Save To Spotify button.
 
 This web application was created as part of the Web Development'course at [`Codeacademy`](https://www.codecademy.com) and was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 # Getting started
 
-First, run the development server:
+1. Run the development server:
 
 ```bash
 npm start
 ```
-This command runs the app in the development mode.\
-Open [http://localhost:3001](http://localhost:3001) to view it in the browser.
+
+2. Open [http://localhost:3001](http://localhost:3001) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
