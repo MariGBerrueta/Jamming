@@ -1,7 +1,5 @@
-
-const clientId = 'b0a85ce0bddf4bb1b70fa0df74662707';
-const redirectUri = 'http://localhost:3001/'
-
+const clientId = process.env.REACT_APP_API_KEY;
+const redirectUri = 'http://localhost:3001/';
 let accessToken;
 
 const Spotify = {
@@ -71,7 +69,6 @@ const Spotify = {
                 }).then(response => response.json()
                 ).then(jsonResponse => {
                     let playlistId = jsonResponse.id;
-                    console.log(playlistId)
                     return fetch(`https://api.spotify.com/v1/playlists/${playlistId}/tracks`,
                     {
                         headers: headers,
